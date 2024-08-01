@@ -3,9 +3,8 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="./Insight.css"
-    <!-- This is not working properly recheck and troubleshoot -->
-  <title>Insight Notary</title>
+    <link rel="stylesheet" href="./Insight.css" />
+    <title>Insight Notary</title>
   </head>
   <body>
     <div class="main-header">
@@ -13,120 +12,175 @@
       <p id="tagline">"Bringing Excellence To Your Notary Needs"</p>
     </div>
     <nav id="navbar">
-      <!-- This is the Navigation Bar with links to specifics the each corresponding section on the page.
-       Link to NNA external site -->
-        <a>About</a>
-        <a>Pricing</a>
-        <a>Testimonials</a>
-        <a>Contact</a>
-      </nav>
-    <!-- This section will be your introduction and short professional summary. Wants a banner on the left hand side picture of self, compnay name, contact info, hours of op. (Static banner) -->
-    <div id="about">
-      <h2>About</h2>
-      <!-- Picture of you -->
-       <img src="./images/insight.jpg" alt="Insight Notary" />
-      <!-- Add some lipsum -->
-       <p>Lorem ipsum dolor sit amet. Ut accusamus accusantium vel eaque laborum et autem incidunt id adipisci laborum et exercitationem quia qui deserunt laudantium et galisum consequatur? Ut dolor tempore ea consequatur accusantium ut atque placeat ut doloribus numquam ut Quis repudiandae et galisum totam ut illo porro! Sit excepturi modi qui esse voluptatem vel odit voluptatem non tenetur accusamus eos ipsa fuga. In reprehenderit quaerat est velit distinctio qui consequatur consectetur et culpa natus est molestias tempore ut nihil quaerat sed repudiandae quia. </p><p>Vel nihil voluptas cum dignissimos blanditiis quo expedita eius aut placeat accusamus ut velit consequatur ut earum fuga. Non assumenda Quis ea illo numquam ut iste sint ut rerum voluptatum!</p>
-</p>
-    </div>
-    <!--  -->
-    <div id="pricing"></div>
+      <a href="#about-section">About</a>
+      <a href="#pricing-section">Pricing</a>
+      <a href="#testimonials">Testimonials</a>
+      <a href="#contact">Contact</a>
+    </nav>
+
+    <div class="container">
+      <div class="sidebar">
+        <h2>Contact Info</h2>
+        <p>Email: business@example.com</p>
+        <p>Phone: (123) 456-7890</p>
+        <h2>Hours of Operation</h2>
+        <p>Monday - Friday: 9am - 5pm</p>
+        <p>Saturday: 10am - 4pm</p>
+        <p>Sunday: Closed</p>
+      </div>
+
+      <div class="main-content">
+        <div class="about-section" id="about-section">
+          <h2>About</h2>
+          <img src="./images/insight.jpg" alt="Insight Notary" />
+          <p>
+            Lorem ipsum dolor sit amet. Ut accusamus accusantium vel eaque
+            laborum et autem incidunt id adipisci laborum et exercitationem quia
+            qui deserunt laudantium et galisum consequatur? Ut dolor tempore ea
+            consequatur accusantium ut atque placeat ut doloribus numquam ut
+            Quis repudiandae et galisum totam ut illo porro! Sit excepturi modi
+            qui esse voluptatem vel odit voluptatem non tenetur accusamus eos
+            ipsa fuga. In reprehenderit quaerat est velit distinctio qui
+            consequatur consectetur et culpa natus est molestias tempore ut
+            nihil quaerat sed repudiandae quia.
+          </p>
+          <p>
+            Vel nihil voluptas cum dignissimos blanditiis quo expedita eius aut
+            placeat accusamus ut velit consequatur ut earum fuga. Non assumenda
+            Quis ea illo numquam ut iste sint ut rerum voluptatum!
+          </p>
+        </div>
+
+        <div class="pricing-section" id="pricing-section">
           <h2>Pricing</h2>
-    <h3>Notary Public Fees in California</h3>
-    <p>The following are the maximum fees that a notary public can charge for their services in California:</p>
-    <table>
-        <thead>
-            <tr>
+          <h3>Notary Public Fees in California</h3>
+          <p>
+            The following are the maximum fees that a notary public can charge
+            for their services in California:
+          </p>
+          <table>
+            <thead>
+              <tr>
                 <th>Service</th>
                 <th>Fee</th>
-            </tr>
-        </thead>
-        <tbody>
-            <tr>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
                 <td>Acknowledgments</td>
                 <td>$15 per signature</td>
-            </tr>
-            <tr>
+              </tr>
+              <tr>
                 <td>Jurats</td>
                 <td>$15 per signature</td>
-            </tr>
-            <tr>
+              </tr>
+              <tr>
                 <td>Oaths or Affirmations</td>
                 <td>$15 per person</td>
-            </tr>
-            <tr>
+              </tr>
+              <tr>
                 <td>Certified Copies of Power of Attorney</td>
                 <td>$15 per copy</td>
-            </tr>
-            <tr>
+              </tr>
+              <tr>
                 <td>Deposition Services</td>
                 <td>
-                    <ul>
-                        <li>Administering the oath: $7</li>
-                        <li>Certificate for a deposition: $7</li>
-                        <li>Transcribing depositions: Actual cost, varies</li>
-                    </ul>
+                  <ul>
+                    <li>Administering the oath: $7</li>
+                    <li>Certificate for a deposition: $7</li>
+                    <li>Transcribing depositions: Actual cost, varies</li>
+                  </ul>
                 </td>
-            </tr>
-        </tbody>
-    </table>
-    <p>Please note: Additional fees may be charged for travel, which are not regulated by the state and can vary based on the notary's discretion and distance traveled. Always confirm the fees with the notary beforehand.</p>
-    <!--  -->
-    <div id="testimonials"></div>
+              </tr>
+            </tbody>
+          </table>
+          <p>
+            Please note: Additional fees may be charged for travel, which are
+            not regulated by the state and can vary based on the notary's
+            discretion and distance traveled. Always confirm the fees with the
+            notary beforehand.
+          </p>
+        </div>
+
+        <div class="testimonials" id="testimonials">
           <h2>Testimonials</h2>
           <h3>Client Testimonials</h3>
-    
-    <div class="testimonial">
-        <h2>John Doe</h2>
-        <p>"The notary service was quick and efficient. The notary was very professional and answered all my questions thoroughly. Highly recommend!"</p>
-    </div>
-    
-    <div class="testimonial">
-        <h2>Jane Smith</h2>
-        <p>"Excellent service! The notary arrived on time and completed the task promptly. I appreciate the clear communication and professional demeanor."</p>
-    </div>
-    
-    <div class="testimonial">
-        <h2>Emily Johnson</h2>
-        <p>"Fantastic experience. The notary was very knowledgeable and made the process easy. Will definitely use this service again in the future."</p>
-    </div>
-    
-    <div class="testimonial">
-        <h2>Michael Brown</h2>
-        <p>"Great service! The notary was friendly and efficient. I was able to get my documents notarized without any hassle. Thank you!"</p>
-    </div>
-    <!-- HTML form that sends an email -->
-    <div id="contact"></div>
+
+          <div class="testimonial">
+            <h2>John Doe</h2>
+            <p>
+              "The notary service was quick and efficient. The notary was very
+              professional and answered all my questions thoroughly. Highly
+              recommend!"
+            </p>
+          </div>
+
+          <div class="testimonial">
+            <h2>Jane Smith</h2>
+            <p>
+              "Excellent service! The notary arrived on time and completed the
+              task promptly. I appreciate the clear communication and
+              professional demeanor."
+            </p>
+          </div>
+
+          <div class="testimonial">
+            <h2>Emily Johnson</h2>
+            <p>
+              "Fantastic experience. The notary was very knowledgeable and made
+              the process easy. Will definitely use this service again in the
+              future."
+            </p>
+          </div>
+
+          <div class="testimonial">
+            <h2>Michael Brown</h2>
+            <p>
+              "Great service! The notary was friendly and efficient. I was able
+              to get my documents notarized without any hassle. Thank you!"
+            </p>
+          </div>
+        </div>
+
+        <div class="contact" id="contact">
           <h2>Contact Us</h2>
-          <h1>Contact Us</h1>
-    <form id="contactForm">
-        <label for="name">Name:</label>
-        <input type="text" id="name" name="name" required>
-        
-        <label for="email">Email:</label>
-        <input type="email" id="email" name="email" required>
-        
-        <label for="message">Message:</label>
-        <textarea id="message" name="message" rows="5" required></textarea>
-        
-        <button type="submit">Send</button>
-    </form>
-    
+          <form id="contactForm">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required />
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required />
+
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" rows="5" required></textarea>
+
+            <button type="submit">Send</button>
+          </form>
+        </div>
+      </div>
+    </div>
+
     <script>
-        document.getElementById('contactForm').addEventListener('submit', function(event) {
-            event.preventDefault();
-            
-            var name = document.getElementById('name').value;
-            var email = document.getElementById('email').value;
-            var message = document.getElementById('message').value;
-            
-            var mailtoLink = 'mailto:business@example.com' +
-                             '?subject=' + encodeURIComponent('Inquiry from ' + name) +
-                             '&body=' + encodeURIComponent('Name: ' + name + '\nEmail: ' + email + '\n\nMessage:\n' + message);
-            
-            window.location.href = mailtoLink;
+      document
+        .getElementById("contactForm")
+        .addEventListener("submit", function (event) {
+          event.preventDefault();
+
+          var name = document.getElementById("name").value;
+          var email = document.getElementById("email").value;
+          var message = document.getElementById("message").value;
+
+          var mailtoLink =
+            "mailto:business@example.com" +
+            "?subject=" +
+            encodeURIComponent("Inquiry from " + name) +
+            "&body=" +
+            encodeURIComponent(
+              "Name: " + name + "\nEmail: " + email + "\n\nMessage:\n" + message
+            );
+
+          window.location.href = mailtoLink;
         });
     </script>
-    </div>
   </body>
 </html>
